@@ -1,0 +1,33 @@
+1.open folder and then copy the folder in new folder .
+
+2.Open your vs code and then from vs code open that specific folder.
+
+3.After opening the folder you will see two more folders i.e. (1) client ,(2) backend.
+
+4. Go to your client folder and install dependencies using npm/yarn install. i.e. basically  "node nodule",  then run.
+	
+	use these code:-
+
+	(i) cd client 
+	(ii) npm run start
+
+5. Now  Go to your backend folder and install dependencies using npm/yarn install. i.e. basically  "node nodule", then run.
+
+	use these code:-
+
+	(i) cd backend 
+	(ii) npm run start
+
+6. You need to create your database (in mongodb Atlas) and connect your backend/server with your database.(using access tool - like  compass or any other tool  of your choice )
+
+	(*) inside .env file;
+
+	DATABASE=mongodb+srv://YOUR ID:YOUR PASSWORD@cluster0.znqwadq.mongodb.net/instadata
+	PORT=8080 // PORT NO. OF YOUR CHOICE
+	SECRET_KEY=CREATE YOUR SECRET KEY HERE
+
+7. You must also provide  PORT number to run in your local system.
+
+8. after all this setup is done , open your terminal and run the client and server side.
+
+
